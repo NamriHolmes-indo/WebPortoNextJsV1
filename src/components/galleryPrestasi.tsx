@@ -4,54 +4,42 @@ import Image from "next/image";
 
 const images = [
     {
-        src: '/pengalaman/magang-pelindo.jpeg',
-        caption: 'Internship at Pelindo',
+        src: "/prestasi/kdmi.jpg",
+        caption:
+            "Finalist in Regional 4 Indonesian Language Student Debate Competition",
     },
     {
-        src: '/pengalaman/KP.jpg',
-        caption: 'Internship at PT. Panca Anugrah Integrationndo',
+        src: "/prestasi/mawapres.jpeg",
+        caption: "LLDIKTI 7 Outstanding Student Finalist 2023",
     },
     {
-        src: '/pengalaman/asprak.jpg',
-        caption: 'Lecturer Assistant and Laboratory Practicum',
+        src: "/prestasi/mawapres-kampus.jpg",
+        caption:
+            "Main Outstanding Student at Telkom Institute of Technology Surabaya 2023",
     },
     {
-        src: '/pengalaman/pusgalas.JPG',
-        caption: 'Community service for library system development',
+        src: "/prestasi/gemastik.JPG",
+        caption: "Gemastik 2022 Finalist in Smart City Division",
     },
     {
-        src: '/pengalaman/pkm.jpg',
-        caption: 'PKM KC Be Safe Be Happy',
+        src: "/prestasi/juara innov.jpeg",
+        caption:
+            "Winner of Social Project Innovillage 2021 - Best Appropriate Technology Solution",
     },
     {
-        src: '/pengalaman/kedaireka.jpg',
-        caption: 'Kedaireka',
+        src: "/prestasi/lktia.jpg",
+        caption: "Finalists of ISEF UNAIR Al-Qur'an Scientific Writing Competition",
     },
     {
-        src: '/pengalaman/al manar.jpg',
-        caption: 'Community service creating a foundation website',
-    },
-    {
-        src: '/pengalaman/pembangunan-lab-jarkom.jpg',
-        caption: 'Construction of a computer network lab',
-    },
-    {
-        src: '/pengalaman/innov pembuatan.jpg',
-        caption: 'Innovillage team leader',
-    },
-    {
-        src: '/pengalaman/pengmas redi.jpg',
-        caption: 'Rebranding and digitalization community service',
-    },
-    {
-        src: '/pengalaman/ramfest.jpg',
-        caption: 'Deputy chairman of the Ramadhan fest',
+        src: "/prestasi/matric.jpg",
+        caption:
+            "Unesa Mathematics Scientific Writing Competition (MATRIC) Finalist",
     },
 ];
 
 const ITEMS_PER_SLIDE = 4;
 
-const GalleryExperience = () => {
+const GalleryPrestasi = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const totalSlides = Math.ceil(images.length / ITEMS_PER_SLIDE);
 
@@ -79,7 +67,7 @@ const GalleryExperience = () => {
                     className="flex transition-transform duration-500"
                     style={{
                         transform: `translateX(-${currentIndex * 100}%)`,
-                        width: `${totalSlides * 67}%`,
+                        width: `${totalSlides * 100}%`,
                     }}
                 >
                     {Array.from({ length: totalSlides }).map((_, slideIndex) => (
@@ -91,7 +79,7 @@ const GalleryExperience = () => {
                                 {images
                                     .slice(slideIndex * ITEMS_PER_SLIDE, (slideIndex + 1) * ITEMS_PER_SLIDE)
                                     .map((image, index) => (
-                                        <div key={index} className="h-auto max-h-[150px] relative w-[285px]">
+                                        <div key={index} className="h-auto max-h-[150px] relative w-[287px]">
                                             <Image
                                                 src={image.src} // Ambil src dari objek
                                                 width={287.5}     // Ukuran lebar 287.5px
@@ -124,4 +112,4 @@ const GalleryExperience = () => {
     );
 };
 
-export default GalleryExperience;
+export default GalleryPrestasi;
