@@ -11,6 +11,9 @@ export default {
       animation: {
         breathe: 'breathe 2s infinite ease-in-out',
       },
+      fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
+      },
       keyframes: {
         breathe: {
           '0%': {
