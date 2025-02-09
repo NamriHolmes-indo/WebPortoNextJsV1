@@ -1,0 +1,27 @@
+[
+    {
+        "src": "/portofolio/hack-device.jpeg",
+        "caption": "Display in ESP32",
+        "link_demo": "https://www.instagram.com/p/C1tXx99JBj0/"
+    },
+    {
+        "src": "/portofolio/mobil-mobilan.jpg",
+        "caption": "Automatic Braking System in Cars",
+        "link_demo": "https://www.instagram.com/p/C7ChUsVyWnx/?img_index=1"
+    },
+    {
+        "src": "/portofolio/pusgalas.JPG",
+        "caption": "Library Website System",
+        "link_demo": "https://pusgalas-mitra.ngonsul.com/"
+    },
+    {
+        "src": "/portofolio/soy be fresh.jpg",
+        "caption": "MSME Website",
+        "link_demo": "https://soybe-mitra.ngonsul.com/"
+    },
+    {
+        "src": "/portofolio/web-dev-it.jpg",
+        "caption": "Telkom University Surabaya Information Technology Department website",
+        "link_demo": "https://bit-sby.telkomuniversity.ac.id/"
+    }
+]

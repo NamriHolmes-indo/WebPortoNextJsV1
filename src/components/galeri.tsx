@@ -4,7 +4,7 @@ import Gallery from "./galleryTab";
 
 const Galeri = () => {
   return (
-    <section className="flex flex-col md:flex-row gap-10">
+    <section data-aos="fade-right" className="flex flex-col md:flex-row gap-10">
       <Gallery />
       <Form />
     </section>

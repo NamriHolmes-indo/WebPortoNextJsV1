@@ -34,18 +34,18 @@ export default function Home() {
           <Sertifikat />
         </section>
 
-        <section className="w-[100vw] p-[20px] md:py-[150px] md:px-[100] flex items-center justify-center">
+        <section className="w-[100vw] p-[20px] md:py-[125px] md:px-[100] flex items-center justify-center">
           <TentangAku />
         </section>
         <Spacer isReversed={isReversed} />
 
-        <section className="w-[100vw] p-[20px] md:py-[150px] md:px-[100] flex items-center justify-center">
+        <section className="w-[100vw] p-[20px] md:py-[125px] md:px-[100] flex items-center justify-center">
           <Pelayanan />
         </section>
 
         <Spacer />
 
-        <section className="w-[100vw] p-[20px] md:py-[150px] md:px-[100] flex items-center justify-center">
+        <section className="w-[100vw] p-[20px] md:py-[125px] md:px-[100] flex items-center justify-center">
           <Galeri />
         </section>
 
@@ -56,8 +56,18 @@ export default function Home() {
           <AppKu />
         </section>
 
-        <section className="w-[100vw] p-[20px] md:py-[150px] md:px-[100] flex items-center justify-center"></section>
+        <section className="w-[100vw] p-[20px] md:py-[125px] md:px-[100] flex gap-8 md:gap-20 flex-col items-center justify-center">
+          <h1 data-aos="fade-down" className="font-poppins font-black text-4xl md:text-6xl text-[#DFFDFF]">
+            My Portfolio
+          </h1>
+          <Portofolio />
+        </section>
       </main>
+
+      <footer className="w-full bg-[#393C47] p-2 flex items-center justify-center">
+        <p
+          className="font-poppins text-sm animate-pulse text-center">Created with NextJs By namri@ngonsul.com and this website run on the Ngonsul-IT server</p>
+      </footer>
     </body>
   );
 }
