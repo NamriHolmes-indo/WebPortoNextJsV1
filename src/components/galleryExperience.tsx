@@ -44,7 +44,7 @@ const images = [
     caption: "Rebranding and digitalization community service",
   },
   {
-    src: "/pengalaman/ramfest.jpg",
+    src: "/pengalaman/ramfest.JPG",
     caption: "Deputy chairman of the Ramadhan fest",
   },
 ];
