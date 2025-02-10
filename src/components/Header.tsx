@@ -14,7 +14,7 @@ const Header = () => {
                 style={{ height: "auto" }} data-aos="fade-right"
             />
 
-            <section className="flex flex-col gap-5" data-aos="fade-left">
+            <section className="flex flex-col gap-5 max-w-[100vw] flex-wrap" data-aos="fade-left">
                 <p className="max-w-[90vw] flex flex-wrap font-montserrat font-bold text-sm md:text-xl text-white typewriter">
                     Software Developer, IoT Engineer, Database Engineer, Machine Learning Engineer.
                 </p>
