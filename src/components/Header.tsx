@@ -15,7 +15,7 @@ const Header = () => {
             />
 
             <section className="flex flex-col gap-5" data-aos="fade-left">
-                <p className="font-montserrat font-bold text-sm md:text-xl text-white typewriter">
+                <p className="max-w-[90vw] flex flex-wrap font-montserrat font-bold text-sm md:text-xl text-white typewriter">
                     Software Developer, IoT Engineer, Database Engineer, Machine Learning Engineer.
                 </p>
                 <h1 className="font-poppins font-bold text-6xl md:text-8xl text-[#DFFDFF]">
