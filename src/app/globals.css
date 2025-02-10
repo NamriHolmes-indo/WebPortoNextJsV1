@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -31,7 +29,6 @@ body {
   }
   to {
     width: 100%;
-    max-width: 90vw;
   }
 }
 
