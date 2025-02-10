@@ -18,7 +18,7 @@ const images = [
       "Main Outstanding Student at Telkom Institute of Technology Surabaya 2023",
   },
   {
-    src: "/prestasi/gemastik.JPG",
+    src: "/prestasi/gemastik.jpg",
     caption: "Gemastik 2022 Finalist in Smart City Division",
   },
   {
