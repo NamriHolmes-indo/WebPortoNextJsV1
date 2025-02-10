@@ -4,7 +4,7 @@ import Image from "next/image";
 const Sertifikat = () => {
   const images = [
     { src: "/tel-u.png", alt: "Lulusan Telkom University" },
-    { src: "/BNSP.png", alt: "Sertified Mobile Programmer" },
+    { src: "/bnsp.png", alt: "Sertified Mobile Programmer" },
     { src: "/progate.png", alt: "Lulus kursus progate" },
     { src: "/sc.png", alt: "Tersertifikasi kursus CodingStudio" },
     { src: "/udemy.png", alt: "Tersertifikasi kursus udemy" },
