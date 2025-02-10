@@ -1,13 +1,5 @@
 "use client";
-import Image from "next/image";
 import SliderTentang from "./AboutImageSlider";
-
-const images = [
-  "/it-1.jpeg",
-  "/mawapres-1.jpeg",
-  "/speakers-1.jpeg",
-  "/mawapres-1.jpeg",
-];
 
 const TentangAku = () => {
   return (

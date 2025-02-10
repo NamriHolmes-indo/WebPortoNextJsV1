@@ -32,7 +32,7 @@ const Form = () => {
       className="flex flex-col w-full gap-2 md:w-5/12" data-aos="fade-left"
     >
       <h1 className="font-poppins font-bold text-4xl md:text-6xl text-[#DFFDFF]">
-        Let's make a deal
+        Contact Naufal
       </h1>
 
       <input

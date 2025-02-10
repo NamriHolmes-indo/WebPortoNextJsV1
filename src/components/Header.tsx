@@ -15,13 +15,13 @@ const Header = () => {
             />
 
             <section className="flex flex-col gap-5" data-aos="fade-left">
-                <p className="font-montserrat font-bold text-sm md:text-xl text-white">
+                <p className="font-montserrat font-bold text-sm md:text-xl text-white typewriter">
                     Software Developer, IoT Engineer, Database Engineer, Machine Learning Engineer.
                 </p>
                 <h1 className="font-poppins font-bold text-6xl md:text-8xl text-[#DFFDFF]">
                     Naufal A. Badri
                 </h1>
-                <p className="font-montserrat font-bold text-sm md:text-xl text-white">
+                <p className="font-montserrat w-min font-bold text-sm md:text-xl text-white typewriter">
                     I do all this because I am a Technophile
                 </p>
 

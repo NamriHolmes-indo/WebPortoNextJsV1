@@ -22,8 +22,8 @@ const Sertifikat = () => {
           width={1000}
           height={0}
           alt={image.alt}
-          className="h-[30px] md:h-[50px] transition-transform duration-300 ease-in-out transform hover:scale-150"
           style={{ width: "auto" }}
+          className="h-[30px] md:h-[50px] object-cover transition-transform duration-300 group-hover:scale-105"
         />
       ))}
     </section>

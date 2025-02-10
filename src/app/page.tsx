@@ -43,7 +43,7 @@ export default function Home() {
           <Pelayanan />
         </section>
 
-        <Spacer />
+        <Spacer isReversed={false} />
 
         <section className="w-[100vw] p-[20px] md:py-[125px] md:px-[100] flex items-center justify-center">
           <Galeri />

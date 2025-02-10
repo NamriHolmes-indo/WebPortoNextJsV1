@@ -10,6 +10,8 @@ export default {
     extend: {
       animation: {
         breathe: 'breathe 2s infinite ease-in-out',
+        typewriter: 'typewriter 2s steps(11) forwards',
+        caret: 'typewriter 2s steps(11) forwards, blink 1s steps(11) infinite 2s',
       },
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
@@ -27,6 +29,28 @@ export default {
           '100%': {
             transform: 'scale(1)',
             boxShadow: '0 10px 50px rgba(151, 217, 229, 0.25)',
+          },
+        },
+        typewriter: {
+          to: {
+            left: '100%',
+          },
+        },
+        blink: {
+          '0%': {
+            opacity: '0',
+          },
+          '0.1%': {
+            opacity: '1',
+          },
+          '50%': {
+            opacity: '1',
+          },
+          '50.1%': {
+            opacity: '0',
+          },
+          '100%': {
+            opacity: '0',
           },
         },
       },

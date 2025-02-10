@@ -47,12 +47,6 @@ const GalleryPrestasi = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % totalSlides);
   };
 
-  const prevSlide = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? totalSlides - 1 : prevIndex - 1
-    );
-  };
-
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();
@@ -111,9 +105,8 @@ const GalleryPrestasi = () => {
           <button
             key={index}
             onClick={() => setCurrentIndex(index)}
-            className={`w-3 h-3 rounded-full ${
-              index === currentIndex ? "bg-white" : "bg-gray-400"
-            }`}
+            className={`w-3 h-3 rounded-full ${index === currentIndex ? "bg-white" : "bg-gray-400"
+              }`}
           />
         ))}
       </div>
