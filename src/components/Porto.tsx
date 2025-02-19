@@ -35,7 +35,7 @@ const Portofolio = () => {
               unoptimized
             />
 
-            <div className="absolute inset-0 bg-[#111627] bg-opacity-75 flex items-center justify-center text-white opacity-100 group-hover:opacity-0 transition-opacity duration-300">
+            <div className="absolute inset-0 bg-[#393C47] bg-opacity-75 flex items-center justify-center text-white opacity-100 group-hover:opacity-0 transition-opacity duration-300">
               <p className="font-montserrat font-bold text-sm text-center p-2">{image.caption}</p>
             </div>
           </div>
