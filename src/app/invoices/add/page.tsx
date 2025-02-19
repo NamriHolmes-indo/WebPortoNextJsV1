@@ -20,6 +20,16 @@ export default function AddInvoicePage() {
     }
   };
 
+  useEffect(() => {
+    const userAgent = window.navigator.userAgent;
+    const isAndroid = /Android/.test(userAgent);
+    const isIPhone = /iPhone/.test(userAgent);
+
+    if (isAndroid || isIPhone) {
+      window.location.href = "/warn";
+    }
+  }, []);
+
   return (
     <div className="flex h-full min-h-[100vh]">
       <SideNav />

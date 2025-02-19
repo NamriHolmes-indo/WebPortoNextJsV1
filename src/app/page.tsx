@@ -39,6 +39,13 @@ export default function Home() {
         </section>
         <Spacer isReversed={isReversed} />
 
+        <section className="w-[100vw] bg-[#393C47] p-[20px] md:py-[125px] md:px-[100] flex gap-8 md:gap-20 flex-col items-center justify-center">
+          <h1 data-aos="fade-down" className="font-poppins font-black text-4xl md:text-6xl text-[#DFFDFF]">
+            My Art
+          </h1>
+          <Portofolio />
+        </section>
+
         <section className="w-[100vw] p-[20px] md:py-[125px] md:px-[100] flex items-center justify-center">
           <Pelayanan />
         </section>
@@ -49,19 +56,14 @@ export default function Home() {
           <Galeri />
         </section>
 
-        <section className="w-[100vw] bg-[#393C47] py-[20px] md:py-[50px] flex flex-col items-center justify-center">
+        {/* <section className="w-[100vw] bg-[#393C47] py-[20px] md:py-[50px] flex flex-col items-center justify-center">
           <h1 className="font-poppins font-black text-4xl md:text-6xl text-[#DFFDFF]">
             Try My App
           </h1>
           <AppKu />
-        </section>
+        </section> */}
 
-        <section className="w-[100vw] p-[20px] md:py-[125px] md:px-[100] flex gap-8 md:gap-20 flex-col items-center justify-center">
-          <h1 data-aos="fade-down" className="font-poppins font-black text-4xl md:text-6xl text-[#DFFDFF]">
-            My Portfolio
-          </h1>
-          <Portofolio />
-        </section>
+
       </main>
 
       <footer className="w-full bg-[#393C47] p-2 flex items-center justify-center">

@@ -16,6 +16,16 @@ export default function EditInvoicePage() {
   const { invoices, updateInvoice } = useInvoiceStorage();
 
   useEffect(() => {
+    const userAgent = window.navigator.userAgent;
+    const isAndroid = /Android/.test(userAgent);
+    const isIPhone = /iPhone/.test(userAgent);
+
+    if (isAndroid || isIPhone) {
+      window.location.href = "/warn";
+    }
+  }, []);
+
+  useEffect(() => {
     setIsMounted(true);
   }, []);
 

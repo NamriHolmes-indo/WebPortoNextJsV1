@@ -23,5 +23,15 @@
         "src": "/portofolio/web-dev-it.jpg",
         "caption": "Telkom University Surabaya Information Technology Department website",
         "link_demo": "https://bit-sby.telkomuniversity.ac.id/"
+    },
+    {
+        "src": "/portofolio/cakra-jw.jpg",
+        "caption": "Notes and To-Do List",
+        "link_demo": "https://namri.ngonsul.com/cakra-jw"
+    },
+    {
+        "src": "/portofolio/invoice-hub.jpg",
+        "caption": "NextJs: Invoice with Local Storage",
+        "link_demo": "https://namri.vercel.app/invoices/add"
     }
 ]
